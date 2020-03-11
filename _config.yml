@@ -1,0 +1,12 @@
+# 设置菜单项及链接 URL
+menu:
+  home: /
+  # archives: /archives
+  categories: /categories
+  tags: /tags
+  # about: /about
+
+# 设置图片地址（可放入 source/images 目录下，用 /images/xxx 来引用）
+images:
+  favicon: /images/favicon.jpg  # 网站图标
+  avatar: /images/avatar.jpg    # 头像

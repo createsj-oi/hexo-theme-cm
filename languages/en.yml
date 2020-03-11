@@ -1,0 +1,16 @@
+# English
+menu:
+  home: Home
+  archives: Archives
+  categories: Categories
+  tags: Tags
+  about: About
+
+post:
+  created: Created on
+  more: More
+  read_more: Read more
+
+paginator:
+  prev: Prev
+  next: Next

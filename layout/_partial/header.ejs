@@ -1,0 +1,18 @@
+<header class="header">
+	<div class="top-bar">
+		<nav class="menu-bar">
+			<ul>
+				<% for (menuItem in theme.menu) { %>
+					<% if ((is_home() && menuItem == "home") || page.title == menuItem) { %>
+						<li class="menu-item" id="<%= menuItem %>" style="background-color: darkgrey;">
+					<% } else { %>
+						<li class="menu-item" id="<%= menuItem %>">
+					<% } %>
+						<a class="menu-item-link" id="<%= menuItem %>" href="<%- url_for(theme.menu[menuItem]) %>"><%- __('menu.' + menuItem) %></a>
+					</li>
+				<% } %>
+			</ul>
+		</nav>
+	</div>
+	<div class="occupy"></div>
+</header>
